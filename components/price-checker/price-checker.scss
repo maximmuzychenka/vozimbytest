@@ -1,0 +1,267 @@
+.c-price-checker {
+
+  .bhead-wrapper {
+    height: 48px;
+  }
+  .bhead-wrapper .bhead {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 5px;
+  }
+  .bhead-wrapper.fix .bhead {
+    padding-top: 22px;
+  }
+  .jsform-body {
+    min-height: 231px;
+    padding-top: 22px;
+    border-top: 1px solid #939393;
+  }
+  .jsform-submit {
+    border-bottom: 1px solid #939393;
+    padding-bottom: 6px;
+    padding-right: 23px;
+    text-align: right;
+  }
+  .jsform-result {
+    height: 169px;
+  }
+  .controls,
+  .js-form .labels {
+    float: left;
+  }
+  .control-group {
+    border-bottom: 1px dashed #c2c2c2;
+    padding: 15px 0;
+  }
+  .control-group.first {
+    padding-top: 0;
+  }
+  .control-group.last {
+    border-bottom: none;
+  }
+  .btn {
+    font-weight: normal;
+    font-family: Calibri, Tahoma, sans-serif;
+  }
+  input[type="text"] {
+    border: 1px solid #d9d8d6;
+    padding: 3px;
+    margin-left: 0;
+    border-radius: 0;
+  }
+  input:hover {
+    box-shadow: none;
+    border-radius: 0;
+  }
+  input.filled,
+  .js-form .styled-select.filled {
+    border: 1px solid #009ad8;
+  }
+  .styled-select {
+    border: 1px solid #d9d8d6;
+    background: url(static/images/price-checker-arrow.png) right bottom no-repeat white;
+    width: 228px;
+    overflow: hidden;
+  }
+  .styled-select select {
+    width: 247px;
+    height: 29px;
+    padding: 5px;
+    background: transparent;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+  }
+  .styled-select select.dependent-sub {
+    border-top: 1px dotted #d9d8d6;
+  }
+  .js-form .labels {
+    margin-top: 2px;
+  }
+  .typeahead.dropdown-menu {
+    width: auto;
+  }
+  .tip {
+    line-height: 30px;
+    font-size: 13px;
+    color: #0090c9;
+    cursor: pointer;
+  }
+  .labels {
+    width: 160px;
+  }
+  .nomargin {
+    margin-top: 0;
+  }
+  .controls {
+    width: 270px;
+    margin-top: -2px;
+  }
+  .styled-select {
+    width: 245px;
+  }
+  .styled-select select {
+    width: 260px;
+  }
+  .jsform-submit {
+    padding-right: 23px;
+  }
+  .control-group-dimension {
+    padding-top: 0;
+  }
+  .control-group-dimension .labels,
+  #calculation .control-group-dimension .controls {
+    float: none;
+    width: 100%;
+  }
+  .control-group-dimension .labels {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+  .control-group-dimension .labels label {
+    text-transform: uppercase;
+  }
+  .control-group-cost input {
+    margin-top: 0;
+    width: 240px;
+  }
+  .controls-fromstore {
+    margin: 8px 0 0 159px;
+    height: 30px;
+  }
+  .inp-group {
+    float: left;
+    width: 120px;
+    margin-right: 20px;
+  }
+  .inp-group.last {
+    margin-right: 0;
+  }
+  .lbl {
+    line-height: 29px;
+  }
+  .lbl-before {
+    padding-right: 14px;
+  }
+  .lbl-after {
+    padding-left: 5px;
+  }
+  .inp-group .lbl {
+    padding-left: 8px;
+  }
+  #clc-dimension input {
+    width: 73px;
+    margin: 0;
+    text-align: center;
+  }
+  .control-group-locality .labels {
+    width: 128px;
+  }
+  .control-group-locality .controls {
+    width: 298px;
+  }
+  .control-group-locality input {
+    width: 238px;
+  }
+  .control-group-locality .tip {
+    margin-left: 5px;
+  }
+  .control-group-locality .tip,
+  .control-group-locality .watch-on-map,
+  .control-group-locality span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .watch-on-map {
+    text-decoration: none;
+  }
+  .watch-on-map .map35 {
+    fill: #dadada;
+  }
+  .watch-on-map.filled .map35 {
+    fill: #7ad0f1;
+  }
+  .watch-on-map.filled .map35:hover {
+    fill: #009fdc;
+  }
+  .control-group-additional .tip {
+    line-height: 34px;
+  }
+  #clc-result {
+    font-size: 18px;
+    margin-top: 18px;
+    white-space: nowrap;
+  }
+  #clc-result span {
+    display: inline-block;
+    line-height: 28px;
+  }
+  #clc-result .dates,
+  #clc-result .lbl {
+    color: #787878;
+    font-weight: normal;
+    width: 86px;
+  }
+  #clc-result .cost {
+    color: #36b0df;
+    font-weight: bold;
+    text-align: right;
+    width: 215px;
+  }
+  #clc-result .exp .cost {
+    color: #009fdc;
+  }
+  #clc-result .std .cost {
+    color: #49b5de;
+  }
+  #clc-result .eco .cost {
+    color: #7ad0f1;
+  }
+  #clc-result .dates {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 14px;
+  }
+  #clc-result .inf {
+    text-align: right;
+    margin-top: -7px;
+  }
+  #clc-result .inf span {
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #c2c2c2;
+    border-top: 1px dashed #c2c2c2;
+    width: 119px;
+    margin-right: 7px;
+  }
+  .tooltip .tooltip-inner {
+    border-radius: 2px;
+    background: white;
+    color: #333333;
+    font-size: 12px;
+    text-align: left;
+    text-transform: none;
+    padding: 12px 13px 10px;
+    line-height: 13px;
+    box-shadow: 0 0 8px 2px #888888;
+    width: 240px;
+  }
+  .tooltip.right .tooltip-arrow {
+    border-right-color: white;
+  }
+  .g-button {
+    font-weight: normal;
+  }
+  .noresult {
+    color: #00b5e1;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 23px;
+  }
+}

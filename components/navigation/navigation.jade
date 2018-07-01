@@ -1,0 +1,28 @@
+- var navigation
+
+.c-navigation
+  .big-menu.clearfix
+    
+    a.menu-item(title='Доставка по Беларуси', href='/', class= (navigation == 1) ? 'active' : '')
+      .icon-submenu.icon-onlyrb
+      span Доставка по Беларуси
+        
+    a.menu-item(title='Доставка</br> по Минску', href='/dostavka-po-gorodu-minsku.html', class= (navigation == 2) ? 'active' : '')
+      .icon-submenu.icon-onlyminsk
+      span Доставка <br> по Минску
+          
+    a.menu-item(title='Доставка из интернет магазинов', href='/dostavka-iz-internet-magazinov.html', class= (navigation == 3) ? 'active' : '')
+      .icon-submenu.icon-carts
+      span ДОСТАВКА ИЗ ИНТЕРНЕТ-МАГАЗИНОВ
+        
+    a.menu-item.menu-item--green(title='Доставка Минск - Москва', href='/dostavka-minsk-moskva.html', class= (navigation == 4) ? ' active' : '')
+      .icon-submenu.icon-onlyminsk
+      span ДОСТАВКА <br> МИНСК - МОСКВА
+    
+    a.menu-item.redcolor.noborder(title='Доставка Минск - Петербург', href='/dostavka-minsk-peterburg.html', class= (navigation == 5) ? ' active' : '')
+      .icon-submenu.icon-new
+      span ДОСТАВКА <br> МИНСК - ПЕТЕРБУРГ
+        
+    a.menu-item(href='http://b2b.vozim.by/', data-toggle='modal', style='float:right;')
+      .icon-submenu.icon-lock
+      span Личный кабинет

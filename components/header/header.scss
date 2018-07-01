@@ -1,0 +1,286 @@
+.c-header {
+  background-color: #009ad7;
+  // height: 83px;
+
+  .header {
+    width: 1200px;
+    // height: 30px;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+
+  .left_menu {
+    display: inline-block;
+    width: 504px;
+    margin-top: 20px;
+  }
+
+  .left_menu .worktime {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 8px;
+    font-size: 12px;
+    color: white;
+  }
+
+  .left_menu .worktime .icon,
+  .left_menu .worktime .icoblock {
+    float: left;
+  }
+
+  .left_menu .worktime .icoblock {
+    margin: -6px 7px 0;
+  }
+
+  .left_menu .worktime p {
+    display: block;
+    margin: 0;
+    font-family: Verdana;
+  }
+
+  .left_menu .worktime .firstline {
+    line-height: 20px;
+  }
+
+  .left_menu .worktime .firstline .b1 {
+    font-size: 12px;
+  }
+
+  .left_menu .worktime .firstline .b2 {
+    font-size: 18px;
+  }
+
+  .left_menu .worktime .secondline {
+    font-size: 24px;
+    line-height: 22px;
+    margin-top: 1px;
+  }
+
+  .header .work-pay {
+    float: left;
+    padding-left: 24px;
+    width: 281px;
+    height: 47px;
+    line-height: 47px;
+    background: url(static/images/header-pay-logo.png) 144px center no-repeat #f2f2f2;
+    text-transform: uppercase;
+    color: #707070;
+    font-size: 12px;
+    font-family: Callibri, Verdana;
+    border-radius: 3px;
+  }
+
+  .number {
+    display: inline-block;
+    width: 152px;
+    font-size: 24px;
+    color: white;
+    margin-left: 6px;
+    margin-right: 7px;
+    line-height: 22px;
+    letter-spacing: 2.5px;
+    vertical-align: top;
+  }
+
+  .number .bigtext {
+    font-family: Verdana;
+  }
+
+  .number .small_text {
+    font-family: Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1.4px;
+    margin-left: 2px;
+  }
+
+  .email {
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 10px;
+    vertical-align: top;
+    width: 200px;
+    letter-spacing: 1.3px;
+  }
+
+  .right_menu {
+    display: inline-block;
+    width: 647px;
+    float: right;
+    margin-top: 18px;
+  }
+
+  .socnet {
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    position: relative;
+    .tooltip {
+      opacity: 1;
+    }
+  }
+
+  .soc_btn {
+    height: 46px;
+    width: 48px;
+    background: url(static/images/common-sprite.png) -48px 0;
+    float: right;
+    margin-left: 2px;
+  }
+
+  .soc_btn:hover {
+    background-position: 0 0;
+  }
+
+  .soc_btn:hover .skype {
+    background-position: -21px -46px;
+  }
+
+  .soc_btn:hover .vk {
+    background-position: -58px -46px;
+  }
+
+  .soc_btn:hover .email {
+    background-position: -175px -46px;
+  }
+
+  .soc_btn .skype {
+    background: url(static/images/common-sprite.png) 0 -47px;
+  }
+
+  .soc_btn .vk {
+    background: url(static/images/common-sprite.png) -39px -46px;
+  }
+
+  .soc_btn .email {
+    background: url(static/images/common-sprite.png) -155px -46px;
+  }
+
+  .soc_btn div {
+    height: 18px;
+    margin: 15px;
+    width: 17px;
+  }
+
+  .icon {
+    background: url(static/images/common-sprite.png) 0 0 no-repeat;
+  }
+
+  .icon.icon-btime {
+    background-position: -635px -155px;
+    width: 38px;
+    height: 39px;
+  }
+
+  .header .icon-menu {
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+  }
+
+  .header .icon-menu.icon-mobilephone {
+    background: url(static/images/common-sprite.png) -629px -420px no-repeat;
+    width: 36px;
+    height: 50px;
+    margin-top: -7px;
+  }
+
+  .icon {
+    width: 58px;
+    height: 63px;
+    display: inline-block;
+    background: url(static/images/common-sprite.png);
+  }
+
+  #opinions-toggle {
+    background: url(static/images/common-sprite-buttons.png) 0 -117px no-repeat;
+    width: 159px;
+    height: 48px;
+    float: right;
+    display: block;
+    border: 0;
+    padding: 0;
+    margin-right: 10px;
+    color: #707070;
+    font-size: 12px;
+    font-family: Callibri, Verdana;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  #opinions-toggle:hover {
+    background-position: 0 -166px;
+    color: white;
+  }
+
+  .tooltip-inner {
+    border-radius: 2px;
+    background: white;
+    color: #333333;
+    font-size: 12px;
+    text-align: left;
+    padding: 12px 13px 10px;
+    line-height: 14px;
+    box-shadow: 0px 0px 8px 2px #888888;
+  }
+
+  .tooltip.bottom .tooltip-arrow {
+    bottom: -3px;
+    left: 50%;
+    margin-left: -12px;
+    border-width: 0 8px 8px;
+    border-bottom-color: #FFFFFF;
+  }
+
+  .tooltip-inner li {
+    margin-bottom: 5px;
+  }
+
+  .icon {
+    display: inline-block;
+    background: url(static/images/common-sprite.png);
+  }
+
+  .icon.icon-bskype {
+    background-position: -654px -44px;
+    width: 19px;
+    height: 18px;
+  }
+
+  .icon.icon-bmail {
+    background-position: -644px -62px;
+    width: 19px;
+    height: 12px;
+  }
+
+  #popup-skype {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  #popup-skype i {
+    margin-bottom: -4px;
+  }
+
+
+  .direct-contact {
+    color: #fff;
+    font-size: 13px;
+    font-family: Verdana;
+
+    width: 1104px;
+    height: 54px;
+    margin: 0 auto;
+    padding: 15px 0 0;
+
+    &-list {
+      font-weight: bold;
+    }
+  }
+}

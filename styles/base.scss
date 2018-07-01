@@ -1,0 +1,14 @@
+body {
+  background-image: url(static/images/common-background.png);
+  min-width: 1260px;
+}
+
+input[type='text'] {
+  vertical-align: top;
+  margin-left: 9px;
+  margin-top: 7px;
+  padding: 11px;
+  font-size: 14px;
+  background: white;
+  border: 1px solid #d7d6d4;
+}

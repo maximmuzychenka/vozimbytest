@@ -1,0 +1,40 @@
+- var headEmail = mainEmail || "belarus@vozim.by"
+
+.c-header
+    .header.clearfix
+      
+      .left_menu.clearfix
+        .icon-menu.icon-mobilephone
+        .number
+          .small_text Единый номер
+          .bigtext 6666-565
+        .worktime.clearfix
+          i.icon.icon-btime(style='margin-top:2px;')
+          .icoblock
+            p.firstline
+              | <span class="b1">РАБОТАЕМ С</span>
+              | <span class="b2">9:00</span>
+              | <span class="b1">ДО</span>
+              | <span class="b2">21:30</span>
+            p.secondline БЕЗ ВЫХОДНЫХ
+            
+      .right_menu
+        .socnet
+          a.soc_btn.soc_btn-vk(href='http://vk.com/vozimby', target='_blank')
+            .vk
+              
+          a.soc_btn(data-toggle='tooltip', data-placement='bottom', title='', data-original-title="<ul style='margin:0px;padding:0px;list-style-type:none;'><li><i style='margin-bottom:-2px;' class='icon icon-bmail'></i> <a href='mailto:"+ headEmail +"'>"+ headEmail +"</a></li></ul>")
+            .email
+                
+          a.soc_btn(data-toggle='tooltip', data-placement='bottom', title='', data-original-title="<ul id='popup-skype'><li>Из Минска по РБ:</br><i class='icon icon-bskype'></i> <a href=skype:belarus.vozim.by?chat>belarus.vozim.by</a></li><li>Из других городов по РБ:</br><i class='icon icon-bskype'></i> <a href=skype:belarus2.vozim.by?chat>porb.vozim.by</a></li></ul>")
+            .skype
+
+        button#opinions-toggle.consult(data-toggle='modal' href='#opinions') Отзыв о курьере
+        .work-pay Мы принимаем:
+        
+    .direct-contact
+      .direct-contact-title Работа с юридическими лицами и интернет-магазинами
+      - if (contacts)
+        .direct-contact-list!= contacts
+      - else
+        .direct-contact-list Елена +375 (33)353-82-34, Екатерина +375 (29)681-06-60

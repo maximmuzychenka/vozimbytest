@@ -1,0 +1,44 @@
+.c-calculate {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #323232;
+  font-size: 14px;
+  margin: 0 auto;
+  width: 1200px;
+
+  .hr {
+    background: none 0 0 repeat scroll #e1e0e0;
+    content: "";
+    display: block;
+    height: 1px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 86px;
+  }
+  .hr::after {
+    background: url(static/images/common-sprite.png) -181px 0 repeat scroll rgba(0, 0, 0, 0);
+    content: "";
+    display: block;
+    height: 15px;
+    left: -7px;
+    margin-left: 50%;
+    position: absolute;
+    top: -7px;
+    width: 15px;
+  }
+  .column {
+    float: left;
+    font-size: 15px;
+  }
+  .column.column-citychecker {
+    width: 302px;
+  }
+  .column.column-checker {
+    width: 240px;
+    margin-left: 90px;
+    margin-right: 0;
+  }
+  .column.column-calculator {
+    width: 434px;
+    margin-left: 134px;
+  }
+}

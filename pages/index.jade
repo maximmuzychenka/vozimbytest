@@ -1,0 +1,19 @@
+extends layout/layout
+
+block variables
+  - var page = 'index'
+  - var title = 'Служба доставки по Беларуси'
+
+block content
+  include ../components/header/header
+  
+  - var navigation = 1
+  include ../components/navigation/navigation
+
+  - var heroTitle = '<h2 style="text-transform:uppercase;"><div>Доставка за <b style="font-size:32px;">1</b> день</div><div>В любой город Беларуси!</div></h2>'
+  include ../components/hero/hero
+  
+  include ../components/advantages/advantages
+  include ../components/how-it-works/how-it-works
+  include ../components/calculate/calculate
+  include ../components/footer/footer

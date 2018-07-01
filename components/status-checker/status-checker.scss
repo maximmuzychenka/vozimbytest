@@ -1,0 +1,106 @@
+.c-status-checker {
+  .bhead-wrapper {
+    height: 48px;
+  }
+  .bhead-wrapper .bhead {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 5px;
+  }
+  .jsform-body {
+    min-height: 231px;
+    padding-top: 22px;
+    border-top: 1px solid #939393;
+  }
+  .jsform-submit {
+    border-bottom: 1px solid #939393;
+    padding-bottom: 6px;
+    padding-right: 23px;
+    text-align: right;
+  }
+  .jsform-result {
+    height: 169px;
+  }
+  .controls,
+  .js-form .labels {
+    float: left;
+  }
+  .control-group {
+    border-bottom: 1px dashed #c2c2c2;
+    padding: 15px 0;
+  }
+  .control-group.first {
+    padding-top: 0;
+  }
+  .control-group.last {
+    border-bottom: none;
+  }
+  .btn {
+    font-weight: normal;
+    font-family: Calibri, Tahoma, sans-serif;
+  }
+  input[type="text"] {
+    border: 1px solid #d9d8d6;
+    padding: 3px;
+    margin-left: 0;
+    border-radius: 0;
+  }
+  input:hover {
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .labels {
+    margin-top: 2px;
+  }
+  input[type="text"] {
+    width: 75px;
+    margin: 0;
+  }
+  .jsform-submit {
+    padding-right: 35px;
+  }
+  .labels {
+    width: 122px;
+  }
+  .controls {
+    width: 118px;
+    min-height: 30px;
+  }
+  .icon-status {
+    display: inline-block;
+    background: url(static/images/status-checker-icons.png) 0 0 no-repeat;
+    width: 105px;
+    height: 88px;
+  }
+  .rstatus-res {
+    color: #0199da;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+  }
+  .delivery .icon-status {
+    background-position: 0 -171px;
+  }
+  .planed .icon-status {
+    background-position: 0 -98px;
+    height: 68px;
+  }
+  .return .icon-status {
+    background-position: 0 0;
+    height: 95px;
+  }
+  .delivered .icon-status {
+    background-position: 0 -262px;
+  }
+  .process {
+    font-size: 14px;
+  }
+  .g-button {
+    font-weight: normal;
+  }
+}

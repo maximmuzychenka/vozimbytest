@@ -1,0 +1,139 @@
+.c-navigation {
+  height: 80px;
+  background-color: #f2f2f2;
+
+  .big-menu {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 15px;
+    position: relative;
+  }
+
+  .icon-submenu {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 42px;
+    margin-top: 1px;
+    background: url(static/images/common-sprite.png);
+  }
+
+  .icon-lock {
+    background-position: -196px -70px;
+  }
+
+  .icon-onlyrb {
+    background-position: -547px -500px;
+  }
+
+  .icon-onlyminsk {
+    background-position: -589px -469px;
+  }
+
+  .icon-carts {
+    background-position: -586px -435px;
+    height: 31px;
+  }
+
+  .icon-new {
+    background: url(static/images/new.svg) 50% no-repeat;
+  }
+
+  .menu-item {
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 20;
+
+    box-sizing: border-box;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+
+    color: #707070;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+    background-color: #f2f2f2;
+    border-right: 1px solid #cecece;
+
+    &.noborder {
+      border: none;
+    }
+
+    &:hover,
+    &.active {
+      color: #009ad7;
+    }
+
+    &.redcolor,
+    &.redcolor:hover {
+      color: #e93e34;
+    }
+
+    &--green,
+    &--green:hover {
+      color: #4b964b;
+    }
+
+    &:last-child,
+    &:first-child {
+      border-left: 1px solid #cecece;
+    }
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+
+      margin-left: 4px;
+      width: 110px;
+
+      line-height: 15px;
+
+      text-align: left;
+      font-family: Callibri, Verdana;
+    }
+
+    &.menu-item-21762 span {
+      width: 166px;
+    }
+
+    &:hover .icon-lock {
+      background-position: -196px -108px;
+    }
+
+    &:hover .icon-onlyrb,
+    &.active .icon-onlyrb {
+      background-position: -589px -500px;
+    }
+
+    &:hover .icon-onlyminsk,
+    &.active .icon-onlyminsk {
+      background-position: -547px -469px;
+    }
+
+    &:hover .icon-carts,
+    &.active .icon-carts {
+      background-position: -544px -435px;
+    }
+
+    &:hover::before,
+    &.active::before {
+      background: url(static/images/common-sprite.png) -123px -40px no-repeat;
+      content: "";
+      display: block;
+      height: 13px;
+      position: absolute;
+      top: 0;
+      width: 23px;
+      left: -12px;
+      margin-left: 50%;
+    }
+
+    &.active span {
+      font-weight: bold;
+    }
+  }
+}
