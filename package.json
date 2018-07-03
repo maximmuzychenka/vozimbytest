@@ -1,6 +1,6 @@
 {
-  "name": "vozimby",
-  "author": "Novikov Bogdan, Grisha Pushkov <grisha@push.org.ru>",
+  "name": "vozimbytest",
+  "author": "Maxim Muzychenka",
   "private": "true",
   "dependencies": {
     "browser-sync": "^2.9.11",
